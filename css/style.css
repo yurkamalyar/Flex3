@@ -99,6 +99,12 @@ body {
 	max-width: 1184px;
 	margin: 0 auto;
 }
+
+.title {
+	font-size: 30px;
+	line-height: 1.2;
+	color: #445161;
+}
 /* -------------------------------------- */
 .hi {
 	padding: 50px 0px;
@@ -131,6 +137,37 @@ body {
 }
 .hi__image {
 }
-/* .hi__list :last-child {
+.hi__list :last-child {
 	margin: 0px;
-} */
+}
+
+/* --------------WHAT------------ */
+
+.what {
+	margin: 51px 0px;
+}
+.what__row {
+	display: flex;
+}
+.what__image {
+	flex: 0 0 430px;
+}
+.what__body {
+	flex: 1 1 auto;
+	margin: 0px 0px 0px 40px;
+}
+.what__title {
+	margin: 0px 0px 36px 0px;
+}
+
+.what__text {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+.what__text p {
+	margin: 0px 0px 33px 0px;
+}
+.what__text p:last-child {
+	margin: 0;
+}
